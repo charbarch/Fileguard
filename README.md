@@ -1,63 +1,44 @@
 
 # FileGuard
 
-**FileGuard** is an encryption and file protection tool designed for Windows. This project allows users to manage file permissions and secure sensitive files using encryption techniques. It features a graphical user interface (GUI) for ease of use and allows users to manage themes and utilities for a more customized experience.
+## Description
+FileGuard is a software solution designed to securely encrypt files or folders with a private password, ensuring your sensitive data remains protected. Developed by CharbArch, FileGuard offers a straightforward user interface coupled with powerful backend encryption, leveraging the latest cryptographic technologies to deliver robust security.
 
-## Table of Contents
-
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Files](#files)
-- [License](#license)
-
+## Version
+- **Software Version:** 1.6 BETA
+- **Last Updated:** 29/10/2024
 ## Features
+- **File Encryption:** Secure your files with state-of-the-art encryption algorithms.
+- **User-friendly Interface:** Easy-to-use interface built with PyQt5, allowing users to securely manage their encryption tasks.
+- **Cross-platform:** Designed for Windows but structured for potential future cross-platform support.
 
-- **Encryption**: Encrypt and decrypt files to protect sensitive information.
-- **Hash Generation**: Generate secure hashes to verify the integrity of files.
-- **GUI Interface**: A user-friendly graphical interface for ease of use.
-- **Theming**: Customize the appearance using themes.
-- **Utilities**: Helpful tools to manage file encryption and permissions.
+## System Requirements
+- **Operating System:** Windows NT and Win32
+- **Dependencies:**
+  - PyQt5
+  - cryptography
 
 ## Installation
+To install FileGuard, download the latest version from our repository and run the installer. Ensure that all dependencies listed in `requirements.txt` are installed.
 
-To install and run the project, follow the steps below:
-
-1. Clone the repository to your local machine using:
-    ```bash
-    git clone https://github.com/charbarch/FileGuard.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd FileGuard
-    ```
-3. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-4. Run the main script:
-    ```bash
-    python main.py
-    ```
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
+To start FileGuard, execute the `main.py` script after installation:
 
-Once installed, FileGuard provides an easy-to-use interface for encryption, decryption, and managing files.
+```python
+python main.py
+```
 
-1. Launch the application by running `main.py`.
-2. Use the GUI to select files for encryption or decryption.
-3. Customize the appearance with the available themes in the settings.
-4. Use utilities to manage file permissions or generate secure hashes.
-
-## Files
-
-- `credits.py`: Manages credits and acknowledgments within the application.
-- `encryption.py`: Contains the core logic for encrypting and decrypting files.
-- `gui.py`: Handles the graphical user interface for the application.
-- `main.py`: The entry point for the application. Initializes the GUI and starts the program.
-- `theme.py`: Manages different visual themes for the application.
-- `utils.py`: Provides utility functions for managing encryption and other operations.
+## Contributing
+Contributions to FileGuard are welcome! Please refer to our contributing guidelines for more information on how to contribute to the project.
 
 ## License
+© 2024 CharbArch. All rights reserved. Redistribution or modification is strictly prohibited without the express permission of CharbArch.
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+## Contact
+- **Developer:** CharbArch
+- **Email:** charbelrahme77@gmail.com
+- **Website:** github.com/charbarch
